@@ -1,0 +1,10 @@
+---
+- name: "Crear directorios"
+  file:
+    path: "/tmp/2do_parcial/{{ item }}"
+    state: directory
+    mode: '0775'
+    recurse: yes
+  with_items: 
+    - "alumno"
+    - "equipo"

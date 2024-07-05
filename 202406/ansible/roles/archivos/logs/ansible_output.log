@@ -1,0 +1,14 @@
+2024-07-05 13:58:06,186 p=4804 u=ceriana n=ansible | PLAY [localhost] **********************************************************************************************************
+2024-07-05 13:58:06,207 p=4804 u=ceriana n=ansible | TASK [Gathering Facts] ****************************************************************************************************
+2024-07-05 13:58:08,260 p=4804 u=ceriana n=ansible | ok: [localhost]
+2024-07-05 13:58:08,292 p=4804 u=ceriana n=ansible | PLAY RECAP ****************************************************************************************************************
+2024-07-05 13:58:08,293 p=4804 u=ceriana n=ansible | localhost                  : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-07-05 14:04:40,614 p=5014 u=ceriana n=ansible | PLAY [localhost] **********************************************************************************************************
+2024-07-05 14:04:40,621 p=5014 u=ceriana n=ansible | TASK [Gathering Facts] ****************************************************************************************************
+2024-07-05 14:04:42,434 p=5014 u=ceriana n=ansible | ok: [localhost]
+2024-07-05 14:04:42,451 p=5014 u=ceriana n=ansible | TASK [archivos : Agrego archivo alumno desdde template] *******************************************************************
+2024-07-05 14:04:43,102 p=5014 u=ceriana n=ansible | changed: [localhost]
+2024-07-05 14:04:43,108 p=5014 u=ceriana n=ansible | TASK [archivos : Agrego archivo equipo desdde template] *******************************************************************
+2024-07-05 14:04:43,583 p=5014 u=ceriana n=ansible | changed: [localhost]
+2024-07-05 14:04:43,606 p=5014 u=ceriana n=ansible | PLAY RECAP ****************************************************************************************************************
+2024-07-05 14:04:43,607 p=5014 u=ceriana n=ansible | localhost                  : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   

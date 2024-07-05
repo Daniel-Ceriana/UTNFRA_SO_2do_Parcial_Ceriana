@@ -1,0 +1,10 @@
+---
+# tasks file for cambiarsudo
+- name: "agregar NOPASSWD en sudores para el grupo {{ GROUP_ADMIN }}"
+  become: yes
+  lineinfile:
+    path: /etc/sudoers
+    state: present
+    regexp: '^%{{ GROUP_ADMIN }}'
+    line: '%{{ GROUP_ADMIN }} ALL=(ALL) NOPASSWD: ALL'
+    validate: 'visudo -cf %s'

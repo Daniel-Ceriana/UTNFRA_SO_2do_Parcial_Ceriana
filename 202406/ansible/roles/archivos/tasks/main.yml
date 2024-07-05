@@ -1,0 +1,10 @@
+---
+
+- name: "Agrego archivo alumno desdde template"
+  template:
+    src: alumno.j2
+    dest: /tmp/2do_parcial/alumno/datos_alumno.txt
+- name: "Agrego archivo equipo desdde template"
+  template:
+    src: equipo.j2
+    dest: /tmp/2do_parcial/equipo/datos_equipo.txt
