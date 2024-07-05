@@ -16,3 +16,4 @@ vim tests/test.yml
 vim ansible.cfg
 vim tasks/main.yml
 vim vars/main.yml
+sudo ansible-playbook -u tests/inventory tests/test.yml

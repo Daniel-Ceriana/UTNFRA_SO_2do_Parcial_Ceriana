@@ -23,3 +23,8 @@
 2024-07-05 14:29:53,750 p=5838 u=root n=ansible | fatal: [localhost]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Warning: Permanently added 'localhost' (ED25519) to the list of known hosts.\r\nroot@localhost: Permission denied (publickey).", "unreachable": true}
 2024-07-05 14:29:53,752 p=5838 u=root n=ansible | PLAY RECAP ****************************************************************************************************************
 2024-07-05 14:29:53,752 p=5838 u=root n=ansible | localhost                  : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2024-07-05 15:14:36,826 p=6580 u=root n=ansible | PLAY [localhost] **********************************************************************************************************
+2024-07-05 15:14:36,833 p=6580 u=root n=ansible | TASK [Gathering Facts] ****************************************************************************************************
+2024-07-05 15:14:36,930 p=6580 u=root n=ansible | fatal: [localhost]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Warning: Permanently added 'localhost' (ED25519) to the list of known hosts.\r\nroot@localhost: Permission denied (publickey).", "unreachable": true}
+2024-07-05 15:14:36,931 p=6580 u=root n=ansible | PLAY RECAP ****************************************************************************************************************
+2024-07-05 15:14:36,932 p=6580 u=root n=ansible | localhost                  : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
